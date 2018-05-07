@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/online_find"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:checkable="true"
+            android:title="英译汉" />
+        <item
+            android:id="@+id/data_base"
+            android:icon="@drawable/ic_menu_camera"
+            android:checkable="true"
+            android:title="数据库" />
+        <item
+            android:id="@+id/my_word_book"
+            android:icon="@drawable/ic_menu_gallery"
+            android:checkable="true"
+            android:title="我的单词本" />
+        <item
+            android:id="@+id/vague_find"
+            android:icon="@drawable/ic_menu_manage"
+            android:checkable="true"
+            android:title="本地查询" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
